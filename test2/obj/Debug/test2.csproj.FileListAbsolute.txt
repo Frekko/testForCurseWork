@@ -1,0 +1,13 @@
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\test2.exe.config
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\test2.exe
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\test2.pdb
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\obj\Debug\test2.csprojResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\obj\Debug\test2.Form1.resources
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\obj\Debug\test2.csproj.GenerateResource.Cache
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\obj\Debug\test2.exe
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\obj\Debug\test2.pdb
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\OpenCvSharp.dll
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test2\test2\bin\Debug\OpenCvSharp.UserInterface.dll
