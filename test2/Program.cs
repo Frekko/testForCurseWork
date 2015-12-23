@@ -19,7 +19,7 @@ namespace test2
         private static void Main()
         {
 
-            Bitmap foto1 = new Bitmap("testFoto8.jpg");
+            Bitmap foto1 = new Bitmap("testFoto7.jpg");
             Bitmap foto2 = new Bitmap("testFoto8.jpg");
 
             int height = foto1.Height;
@@ -27,27 +27,29 @@ namespace test2
             
             Segmentation seg = new Segmentation(foto1);
             seg.SortRebr();
+            seg.Segment();
+            int a = 3;
 
-            // Размытие Гаусса
-            double[,] kernel = {{0, 1, 0}, {1, 4, 1}, {0, 1, 0}};
-            // Оператор Собеля
-            double[,] kernelX = { { -1, 0, 1 }, { -2, 0, 2 }, { -1, 0, 1 } };
-            double[,] kernelY = { { -1, -2, -1 }, { 0, 0, 0 }, { 1, 2, 1 } };
-            // Оператор Щарра
-            double[,] kernelShX = { { -3, 0, 3 }, { -10, 0, 10 }, { -3, 0, 3 } };
-            double[,] kernelShY = { { -3, -10, -3 }, { 0, 0, 0 }, { 3, 10, 3 } };
-            //Bitmap fotoAfterSvertka = Svertka(_foto, height, width, kernelY);
-            foto2 = Filters.Sobel(foto2);
-
-            
-
-            double[,] kernel2 = { { 0, 1, 0 }, { 1, 4, 1 }, { 0, 1, 0 } };
-            
-            foto1 = Filters.Svertka(foto1, height, width, kernel);
-            //foto2 = Filters.Svertka(foto2, height, width, kernelY);
-           //Filters.Svertka(foto1, height, width, kernel);
-
-            //////////////////////////////////////////////////////////////////////
+//            // Размытие Гаусса
+//            double[,] kernel = {{0, 1, 0}, {1, 4, 1}, {0, 1, 0}};
+//            // Оператор Собеля
+//            double[,] kernelX = { { -1, 0, 1 }, { -2, 0, 2 }, { -1, 0, 1 } };
+//            double[,] kernelY = { { -1, -2, -1 }, { 0, 0, 0 }, { 1, 2, 1 } };
+//            // Оператор Щарра
+//            double[,] kernelShX = { { -3, 0, 3 }, { -10, 0, 10 }, { -3, 0, 3 } };
+//            double[,] kernelShY = { { -3, -10, -3 }, { 0, 0, 0 }, { 3, 10, 3 } };
+//            //Bitmap fotoAfterSvertka = Svertka(_foto, height, width, kernelY);
+//            foto2 = Filters.Sobel(foto2);
+//
+//            
+//
+//            double[,] kernel2 = { { 0, 1, 0 }, { 1, 4, 1 }, { 0, 1, 0 } };
+//            
+//            foto1 = Filters.Svertka(foto1, height, width, kernel);
+//            //foto2 = Filters.Svertka(foto2, height, width, kernelY);
+//           //Filters.Svertka(foto1, height, width, kernel);
+//
+//            //////////////////////////////////////////////////////////////////////
             
             
             
