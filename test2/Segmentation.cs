@@ -16,7 +16,7 @@ namespace test2
         private int _width;
         private int _height;
         private byte[] _foto;
-        public double limit = 100;
+        public double limit = 10;
         List<Versh> versh;
         public static List<Rib> ribs;
         public static Versh[,] v2d;
@@ -131,8 +131,8 @@ namespace test2
 
             Rib rib = new Rib(v2d[x1, y1], v2d[x2, y2], dist);
             ribs.Add(rib);
-            v2d[x1, y1].ribs.Add(rib);
-            v2d[x2, y2].ribs.Add(rib);
+//            v2d[x1, y1].ribs.Add(rib);
+//            v2d[x2, y2].ribs.Add(rib);
         }
 
         public void Segment()
@@ -145,30 +145,36 @@ namespace test2
             for (int k = 0; k < ribs.Count; k++)
             {
                 Rib r = ribs[k];
+                if (r._dist > limit)
+                    break;
                 //если у них один корень, то они уже в одном сегменте - тогда их не надо соединять снова
-                if (r._firstV.GetRoot() == r._secondV.GetRoot())
+                if (r._firstV.Root == r._secondV.Root)
                     continue;
                 //если же они в разных сегментах, то мы должны оценить,
                 //должны ли мы соединять сегменты
                 //одинокий пиксель - сегмент из одной вершины
                 double m1, m2;
-                m1 = r._firstV.MaxDist;
-                m2 = r._secondV.MaxDist;
-                if (m1 == 0 || m2 == 0)
-                {
-                    if (r._dist < limit)
-                        r._firstV.MergeSegment(r._secondV);
-                }
-                else
-                {
-                    m1 += limit/r._firstV.VershCount;
-                    m2 += limit/r._secondV.VershCount;
-                    double m = Math.Min(m1, m2);
-                    if (r._dist < m)
-                    {
-                        r._firstV.MergeSegment(r._secondV);
-                    }
-                }
+                //m1 = r._firstV.MaxDist;
+                //m2 = r._secondV.MaxDist;
+                if (r._dist < limit)
+                    r._firstV.MergeSegment(r._secondV);
+//                m1 = limit / r._firstV.VershCount;
+//                m2 = limit / r._secondV.VershCount;
+//                if (m1 == 0 || m2 == 0)
+//                {
+//                    if (r._dist < limit)
+//                        r._firstV.MergeSegment(r._secondV);
+//                }
+//                else
+//                {
+//                   // m1 += limit/r._firstV.VershCount;
+//                   // m2 += limit/r._secondV.VershCount;
+//                    double m = Math.Min(m1, m2);
+//                    if (r._dist < m)
+//                    {
+//                        r._firstV.MergeSegment(r._secondV);
+//                    }
+//                }
             }
             ///////////////////////////////////////////////////////////////////////////////
             /// тут всё правильно
@@ -178,14 +184,14 @@ namespace test2
             {
                 for (int j = 0; j < _width; j++)
                 {
-                    mimimi[index++] = v2d[i, j]._r;
-                    mimimi[index++] = v2d[i, j]._g;
-                    mimimi[index++] = v2d[i, j]._b;
+                    mimimi[index++] = v2d[i, j].Root._r;
+                    mimimi[index++] = v2d[i, j].Root._g;
+                    mimimi[index++] = v2d[i, j].Root._b;
                 }
             }
-            Bitmap zyu = test2.Filters.GetBitmap(mimimi, _width, _height);
-            Bitmap zyuzyu = Filters.GetBitmap(_foto, _width, _height);
-            Application.Run(new Form1(zyuzyu, zyu));
+//            Bitmap zyu = test2.Filters.GetBitmap(mimimi, _width, _height);
+//            Bitmap zyuzyu = Filters.GetBitmap(_foto, _width, _height);
+//            Application.Run(new Form1(zyuzyu, zyu));
         }
     }
 }

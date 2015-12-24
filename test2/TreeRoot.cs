@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace test2
 {
-    class TreeNode
+    class TreeRoot
     {
-
+        public Versh Root { get; set; }
     }
 
     //public void

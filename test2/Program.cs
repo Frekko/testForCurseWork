@@ -19,7 +19,7 @@ namespace test2
         private static void Main()
         {
 
-            Bitmap foto1 = new Bitmap("testFoto7.jpg");
+            Bitmap foto1 = new Bitmap("testFoto8.jpg");
             Bitmap foto2 = new Bitmap("testFoto8.jpg");
 
             int height = foto1.Height;
@@ -53,9 +53,9 @@ namespace test2
             
             
             
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(foto1, foto2));
+//            Application.EnableVisualStyles();
+//            Application.SetCompatibleTextRenderingDefault(false);
+//            Application.Run(new Form1(foto1, foto2));
         }
     }
 

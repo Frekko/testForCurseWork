@@ -65,7 +65,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segmentation.cs" />
-    <Compile Include="TreeNode.cs" />
+    <Compile Include="TreeRoot.cs" />
     <Compile Include="Versh.cs" />
     <Compile Include="Rib.cs" />
     <EmbeddedResource Include="Form1.resx">

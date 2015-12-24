@@ -25,3 +25,21 @@ F:\Programming\C#\TRSPC\Julia\testForCurseWork\test2\bin\Debug\normnfkd.nlp
 F:\Programming\C#\TRSPC\Julia\testForCurseWork\test2\obj\Debug\test2.Form1.resources
 F:\Programming\C#\TRSPC\Julia\testForCurseWork\test2\obj\Debug\test2.Properties.Resources.resources
 F:\Programming\C#\TRSPC\Julia\testForCurseWork\test2\obj\Debug\test2.csproj.GenerateResource.Cache
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\bin\Debug\test2.exe.config
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\obj\Debug\test2.exe
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\obj\Debug\test2.pdb
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\bin\Debug\test2.exe
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\bin\Debug\test2.pdb
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\obj\Debug\test2.csprojResolveAssemblyReference.cache
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\obj\Debug\test2.Form1.resources
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\SONY\Documents\Visual Studio 2013\Projects\Windows_2111\test3\test2\obj\Debug\test2.csproj.GenerateResource.Cache
+D:\Igor\Csharp\julia\seg_test\test2\bin\Debug\test2.exe.config
+D:\Igor\Csharp\julia\seg_test\test2\obj\Debug\test2.exe
+D:\Igor\Csharp\julia\seg_test\test2\obj\Debug\test2.pdb
+D:\Igor\Csharp\julia\seg_test\test2\bin\Debug\test2.exe
+D:\Igor\Csharp\julia\seg_test\test2\bin\Debug\test2.pdb
+D:\Igor\Csharp\julia\seg_test\test2\obj\Debug\test2.csprojResolveAssemblyReference.cache
+D:\Igor\Csharp\julia\seg_test\test2\obj\Debug\test2.Form1.resources
+D:\Igor\Csharp\julia\seg_test\test2\obj\Debug\test2.Properties.Resources.resources
+D:\Igor\Csharp\julia\seg_test\test2\obj\Debug\test2.csproj.GenerateResource.Cache
